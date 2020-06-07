@@ -1,0 +1,5 @@
+classes= 1
+train  = datasets/mydataset/train.txt
+valid  = datasets/mydataset/train.txt
+names = vocTablas.names
+backup = backup
