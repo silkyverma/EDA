@@ -110,8 +110,8 @@ with open(classesFile, 'rt') as f:
  
 # Give the configuration and weight files for the model and 
 # load the network using them.
-modelConfiguration = "tablasFinaltest416320.cfg";
-modelWeights = "tablasFinaltrain_10000.weights"
+modelConfiguration = "tableFinaltest416320.cfg";
+modelWeights = "tableFinaltrain_10000.weights"
 
 net = cv.dnn.readNetFromDarknet(modelConfiguration, modelWeights)
 net.setPreferableBackend(cv.dnn.DNN_BACKEND_OPENCV)
