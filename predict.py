@@ -103,7 +103,7 @@ def postprocess(frame, outs):
 
 
 # Load names of classes
-classesFile = "vocTablas.names";
+classesFile = "vocTable.names";
 classes = None
 with open(classesFile, 'rt') as f:
     classes = f.read().rstrip('\n').split('\n')
