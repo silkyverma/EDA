@@ -39,7 +39,7 @@ def getOutputsNames(net):
 # Draw the predicted bounding box
 def drawPred(frame,classId, conf, left, top, right, bottom):
     # Draw a bounding box.
-    cv.rectangle(frame, (left, top), (right, bottom), (0, 0, 0), 3)
+    cv.rectangle(frame, (left, top), (right, bottom), (255, 0, 0), 3)
     
     label = '%.2f' % conf
         
